@@ -32,7 +32,6 @@ namespace ConsolePortfolio
             // Simulate data loading
             await Task.Delay(3000);
         }
-
         public async Task EducationTable()
         {
             // Title with styling
@@ -86,7 +85,6 @@ namespace ConsolePortfolio
             AnsiConsole.Write(educationTable.Centered());
             AnsiConsole.WriteLine();
         }
-        
         public async Task SkillsTable()
         {
             AnsiConsole.Write(new Rule("[red bold] SKILLS [/]").Centered());
